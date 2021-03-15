@@ -1,0 +1,71 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@reach/dialog": "^0.2.9",
+    "@reach/tabs": "^0.1.6",
+    "@reach/visually-hidden": "^0.1.4",
+    "antd": "^3.25.0",
+    "babel-plugin-import": "^1.12.2",
+    "babel-plugin-styled-components": "^1.10.6",
+    "formik": "^1.5.8",
+    "gatsby": "^2.17.10",
+    "gatsby-image": "^2.2.30",
+    "gatsby-plugin-manifest": "^2.2.6",
+    "gatsby-plugin-netlify-identity": "0.0.3",
+    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-sharp": "^2.2.13",
+    "gatsby-plugin-styled-components": "^3.1.11",
+    "gatsby-source-filesystem": "^2.1.35",
+    "gatsby-source-mongodb": "^2.1.20",
+    "gatsby-transformer-sharp": "^2.2.7",
+    "google-spreadsheet": "^2.0.8",
+    "html-react-parser": "^0.10.0",
+    "html2pdf.js": "^0.9.1",
+    "install": "^0.13.0",
+    "netlify-identity-widget": "^1.5.5",
+    "npm": "^6.13.0",
+    "polished": "^3.4.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-beautiful-dnd": "^11.0.5",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-html5-camera-photo": "^1.5.2",
+    "react-netlify-identity": "^0.1.9",
+    "react-scroll": "^1.7.14",
+    "react-scroll-into-view": "^1.5.3",
+    "react-signature-canvas": "^1.0.3",
+    "react-signature-pad": "0.0.6",
+    "styled-components": "^4.4.1",
+    "uuid": "^3.3.3",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "babel-preset-gatsby": "^0.2.20",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
